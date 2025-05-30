@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 <html lang="en" class="light-style customizer-hide" dir="ltr" data-theme="theme-default"
-    data-assets-path="{{ asset('BackEnd/') }}assets/" data-template="vertical-menu-template-free">
+    data-assets-path="{{ asset('Template/BackEnd/') }}assets/" data-template="vertical-menu-template-free">
 
 <head>
     <meta charset="utf-8" />
@@ -13,7 +13,7 @@
     <meta name="description" content="" />
 
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="{{ asset('BackEnd/') }}../assets/img/favicon/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="{{ asset('Template/BackEnd/assets/img/favicon/favicon.ico') }}" />
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -23,27 +23,27 @@
         rel="stylesheet" />
 
     <!-- Icons. Uncomment required icon fonts -->
-    <link rel="stylesheet" href="{{ asset('BackEnd/assets/vendor/fonts/boxicons.css') }}" />
+    <link rel="stylesheet" href="{{ asset('Template/BackEnd/assets/vendor/fonts/boxicons.css') }}" />
 
     <!-- Core CSS -->
-    <link rel="stylesheet" href="{{ asset('BackEnd/assets/vendor/css/core.css') }}"
+    <link rel="stylesheet" href="{{ asset('Template/BackEnd/assets/vendor/css/core.css') }}"
         class="template-customizer-core-css" />
-    <link rel="stylesheet" href="{{ asset('BackEnd/assets/vendor/css/theme-default.css') }}"
+    <link rel="stylesheet" href="{{ asset('Template/BackEnd/assets/vendor/css/theme-default.css') }}"
         class="template-customizer-theme-css" />
-    <link rel="stylesheet" href="{{ asset('BackEnd/assets/css/demo.css') }}" />
+    <link rel="stylesheet" href="{{ asset('Template/BackEnd/assets/css/demo.css') }}" />
 
     <!-- Vendors CSS -->
-    <link rel="stylesheet" href="{{ asset('BackEnd/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css') }}" />
+    <link rel="stylesheet" href="{{ asset('Template/BackEnd/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css') }}" />
 
     <!-- Page CSS -->
     <!-- Page -->
-    <link rel="stylesheet" href="{{ asset('BackEnd/assets/vendor/css/pages/page-auth.css') }}" />
+    <link rel="stylesheet" href="{{ asset('Template/BackEnd/assets/vendor/css/pages/page-auth.css') }}" />
     <!-- Helpers -->
-    <script src="{{ asset('BackEnd/assets/vendor/js/helpers.js') }}"></script>
+    <script src="{{ asset('Template/BackEnd/assets/vendor/js/helpers.js') }}"></script>
 
     <!--! Template customizer & Theme config files MUST be included after core stylesheets and helpers.js in the <head> section -->
     <!--? Config:  Mandatory theme config file contain global vars & default theme options, Set your preferred theme option in this file.  -->
-    <script src="{{ asset('BackEnd/assets/js/config.js') }}"></script>
+    <script src="{{ asset('Template/BackEnd/assets/js/config.js') }}"></script>
 </head>
 
 <body>
@@ -59,7 +59,7 @@
                         <div class="app-brand d-flex flex-column align-items-center justify-content-center text-center">
                             <a href="/login"
                                 class="app-brand-link d-flex flex-column align-items-center text-decoration-none">
-                                <img src="{{ asset('BackEnd/assets/img/logo.png') }}" alt="Logo RS" width="100"
+                                <img src="{{ asset('Template/BackEnd/assets/img/logo.png') }}" alt="Logo RS" width="100"
                                     height="100" class="rounded-circle shadow-sm mb-2">
                             </a>
                         </div>
@@ -117,18 +117,18 @@
 
     <!-- Core JS -->
     <!-- build:js assets/vendor/js/core.js -->
-    <script src="{{ asset('BackEnd/assets/vendor/libs/jquery/jquery.js') }}"></script>
-    <script src="{{ asset('BackEnd/assets/vendor/libs/popper/popper.js') }}"></script>
-    <script src="{{ asset('BackEnd/assets/vendor/js/bootstrap.js') }}"></script>
-    <script src="{{ asset('BackEnd/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js') }}"></script>
+    <script src="{{ asset('Template/BackEnd/assets/vendor/libs/jquery/jquery.js') }}"></script>
+    <script src="{{ asset('Template/BackEnd/assets/vendor/libs/popper/popper.js') }}"></script>
+    <script src="{{ asset('Template/BackEnd/assets/vendor/js/bootstrap.js') }}"></script>
+    <script src="{{ asset('Template/BackEnd/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js') }}"></script>
 
-    <script src="{{ asset('BackEnd/assets/vendor/js/menu.js') }}"></script>
+    <script src="{{ asset('Template/BackEnd/assets/vendor/js/menu.js') }}"></script>
     <!-- endbuild -->
 
     <!-- Vendors JS -->
 
     <!-- Main JS -->
-    <script src="{{ asset('BackEnd/assets/js/main.js') }}"></script>
+    <script src="{{ asset('Template/BackEnd/assets/js/main.js') }}"></script>
 
     <!-- Page JS -->
 
