@@ -1,6 +1,6 @@
 <p align="center">
   <a href="#" target="_blank">
-    <img src="{{ asset('BackEnd/assets/img/logo.png') }}" width="200" alt="Logo RS Tentara Solok">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6DDUTFZ6Y4okNZN7lRFhc31yvvpzgP0gn4g&s" width="200" alt="Logo RS Tentara Solok">
   </a>
 </p>
 
